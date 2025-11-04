@@ -3,37 +3,80 @@
   <head>
     <meta charset="UTF-8">
     <title> </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
     <!--Created by Karen Zhou on November 4, 2025 -->
     <style>
-     
-      body{
+      body {
         margin: 0 auto;
+        font-size: 16px;
       }
+
       .container {
         width: 1200px;
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 35% 65%;
         padding: 20px;
         row-gap: 20px;
-        
-        padding-right: 300px;
-        background-color: beige;
+        padding-right: 112px;
+        background-color: oldlace;
       }
 
       .grid-item {
-        width: 500px
+        width: 500px;
+        line-height: 30px;
       }
 
       .grid-item img {
         width: 870px;
       }
-      .grid-item h1{
-        width: 350px;
+
+      .grid-item h1 {
+        width: 400px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 4em;
+        line-height: 1.1;
+        color: darkslategrey;
+      }
+
+      .grid-item h2 {
+        width: 300px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 2.4em;
+        color: darkslategrey;
+      }
+
+      .grid-item h3 {
+        font-family: "Lora";
+        font-weight: normal;
+        font-size: 1.2em;
+        line-height: 0.5;
+      }
+
+      p {
+        width: 800px;
+        font-family: "Lora";
+        color: dimgray;
+      }
+
+      ul {
+        margin: 15px;
+        padding: 0px;
+        font-family: "Lora";
+        font-size: 0.9em;
+        line-height: 1.8;
+        color: dimgray;
+        padding-top: 10px;
       }
       
-      p{
-        width: 800px;
+      .steps{
+        padding-top: 3px;
+        padding-bottom: 5px
+          
       }
     </style>
   </head>
@@ -66,15 +109,21 @@
 
       <div class="grid-item">
         <h2>Preparation</h2>
-
+        <div class="steps">
         <h3>Step 1</h3>
         <p>Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat. </p>
+       </div>
 
+        <div class="steps">
         <h3>Step 2</h3>
         <p>Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.</p>
+       </div>
 
+        <div class="steps">
         <h3>Tip</h3>
         <p>Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
+          </div>
+      
       </div>
     </div>
   </body>
